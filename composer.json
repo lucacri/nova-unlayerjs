@@ -1,23 +1,32 @@
 {
     "name": "lucacri/nova-unlayerjs",
-    "description": "UnlayerJs Laravel Nova field.",
+    "description": "UnlayerJs field for Laravel Nova",
     "keywords": [
         "laravel",
         "nova"
     ],
+    "homepage": "https://github.com/lucacri/nova-unlayerjs",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Critelli",
+            "email": "lucacri@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
     },
     "autoload": {
         "psr-4": {
-            "Lucacri\\Unlayerjs\\": "src/"
+            "Lucacri\\NovaUnlayerjs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lucacri\\Unlayerjs\\FieldServiceProvider"
+                "Lucacri\\NovaUnlayerjs\\FieldServiceProvider"
             ]
         }
     },

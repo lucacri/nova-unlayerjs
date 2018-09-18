@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucacri\Unlayerjs;
+namespace Lucacri\NovaUnlayerjs;
 
 use Laravel\Nova\Fields\Code;
 
